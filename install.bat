@@ -34,6 +34,6 @@ if '%errorlevel%' NEQ '0' (
 choco feature enable -n allowGlobalConfirmation
 choco install anydesk -A adobereader googlechrome vlc libreoffice-fresh winrar cdrtfe
 
-powershell -Command "Invoke-WebRequest http://10.42.0.176:8080/rarreg.key -OutFile C:\Program Files\WinRAR\rarreg.key"
+powershell -Command "Invoke-WebRequest https://oosterhofhulp.nl/rarreg.key -OutFile C:\Program Files\WinRAR\rarreg.key"
 
 PAUSE
